@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#hobbies">Hobbies</a></li>
+            <li><a href="#cv">Curriculum Vitae</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero-section">
+        <div class="hero-content">
+            <div class="image-container">
+                <!-- Using your provided image. The CSS will focus on the left side. -->
+                <img src="IMG_20251115_120238_045.jpg" alt="My Profile Picture" class="profile-img">
+            </div>
+            <div class="text-container">
+                <h1>Hi, I'm an <br><span>Innovative Learner & Developer</span></h1>
+                <p>Passionate about technology, the internet, and continuous growth.</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hobbies Section -->
+    <section id="hobbies" class="section">
+        <h2 class="section-title">My Hobbies</h2>
+        <div class="cards-container">
+            <div class="card">
+                <i class="fa-solid fa-microchip card-icon"></i>
+                <h3>Technology & Code</h3>
+                <p>Building things to convert ideas into reality. Exploring how software and hardware interact to shape the modern world.</p>
+            </div>
+            <div class="card">
+                <i class="fa-solid fa-globe card-icon"></i>
+                <h3>Internet Culture</h3>
+                <p>Learning about how the internet works, exploring cybersecurity, and staying updated with new emerging technologies.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CV Section -->
+    <section id="cv" class="section bg-light">
+        <h2 class="section-title">Curriculum Vitae</h2>
+        
+        <div class="cv-grid">
+            <!-- Left Column -->
+            <div class="cv-column">
+                <h3><i class="fa-solid fa-briefcase"></i> Experience</h3>
+                <div class="cv-item">
+                    <h4>Tech Enthusiast / Self-Taught Developer</h4>
+                    <p class="date">2023 - Present</p>
+                    <p>Exploring web development, building personal projects, and researching networking and cybersecurity fundamentals.</p>
+                </div>
+
+                <h3><i class="fa-solid fa-code"></i> Skills</h3>
+                <div class="skills-container">
+                    <div class="skill">
+                        <span>Web Technologies (HTML/CSS)</span>
+                        <div class="skill-bar"><div class="skill-fill" data-width="85%"></div></div>
+                    </div>
+                    <div class="skill">
+                        <span>JavaScript & Programming</span>
+                        <div class="skill-bar"><div class="skill-fill" data-width="70%"></div></div>
+                    </div>
+                    <div class="skill">
+                        <span>Internet Research</span>
+                        <div class="skill-bar"><div class="skill-fill" data-width="90%"></div></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Column -->
+            <div class="cv-column">
+                <h3><i class="fa-solid fa-graduation-cap"></i> Education</h3>
+                <div class="cv-item">
+                    <h4>High School / College</h4>
+                    <p class="date">Present</p>
+                    <p>Focusing on Science and Technology. Participating in tech carnivals and science fairs.</p>
+                </div>
+
+                <h3><i class="fa-solid fa-folder-open"></i> Projects</h3>
+                <div class="cv-item">
+                    <h4>Portfolio Website</h4>
+                    <p>A responsive, modern portfolio built from scratch using HTML, CSS, and JS to showcase my skills.</p>
+                </div>
+                <div class="cv-item">
+                    <h4>Upcoming Tech Projects</h4>
+                    <p>Planning to build real-time applications and explore backend networking.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="download-btn-container">
+            <button class="btn">Download Full CV</button>
+        </div>
+    </section>
+
+    <!-- Footer / Contact Section -->
+    <footer id="contact" class="footer">
+        <div class="footer-content">
+            <div class="footer-col">
+                <h3>Let's Connect</h3>
+                <p>Interested in collaborating or discussing technology? Reach out!</p>
+            </div>
+            <div class="footer-col">
+                <div class="social-links">
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-solid fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 My Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
